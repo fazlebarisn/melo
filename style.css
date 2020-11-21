@@ -1,5 +1,8 @@
 body{
     color: aliceblue;
-    font-size: 23px;
+    font-size: 14px;
     text-align: center;
+}
+h2{
+    font-size: 18px;
 }
