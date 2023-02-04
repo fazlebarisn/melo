@@ -1,10 +1,49 @@
-p{
+body,p{
     margin: 0;
     font-family: Roboto, Arial;
 }
+.header{
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.menu-icom{
+    height: 20px;
+    margin: 0 24px;
+}
+.youtube-logo{
+    height: 24px;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+.search-button{
+    height: 26px;
+    width: 60px;
+}
+.voice-search-button{
+    height: 20px;
+}
+.right-section{
+    width: 200px;
+}
+
+.youtube-upload,
+.youtube-apps,
+.youtube-notifications,
+.youtube-profile
+{
+    height: 20px;
+}
 .search-box{
-    margin-bottom: 10px;
-    display: block;
+
 }
 .video-grid{
     display: grid;
