@@ -16,6 +16,7 @@ body{
     top: 0;
     right: 0;
     border-bottom: 1px solid rgb(241, 235, 235);
+    z-index: 1;
 }
 .left-section{
     display: flex;
@@ -80,7 +81,15 @@ body{
     margin-right: 20px;
     flex-shrink: 0;
 }
-
+.notice-count{
+    background-color: red;
+    color: white;
+    /* padding: 4px; */
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
 .youtube-upload,
 .youtube-apps,
 .youtube-notifications
@@ -109,6 +118,10 @@ body{
     position: absolute;
     bottom: 10px;
     right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
 }
 .thumb-img{
     width: 100%
