@@ -1,11 +1,21 @@
-body,p{
+p{
     margin: 0;
     font-family: Roboto, Arial;
+}
+body{
+    margin: 0;
+    padding-top: 80px;
 }
 .header{
     height: 55px;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(241, 235, 235);
 }
 .left-section{
     display: flex;
@@ -19,39 +29,87 @@ body,p{
     height: 24px;
 }
 .middle-section{
+    display: flex;
+    align-items: center;
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
 }
+.search-box{
+    flex:1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .05);
+    width: 0;
+}
+.search-box::placeholder{
+    font-size: 16px;
+}
 .search-button{
-    height: 26px;
+    height: 40px;
     width: 60px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: rgb(240, 240, 240);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
 }
 .voice-search-button{
-    height: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
 }
 .right-section{
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .youtube-upload,
 .youtube-apps,
-.youtube-notifications,
-.youtube-profile
+.youtube-notifications
 {
-    height: 20px;
+    height: 24px;
 }
-.search-box{
+.youtube-profile{
+    height: 32px;
+    border-radius: 16;
+}
 
-}
+
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
     row-gap: 40px;
+    padding: 0 40px;
 }
-
+.thumbnail{
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color:#fff;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
 .thumb-img{
     width: 100%
 }
