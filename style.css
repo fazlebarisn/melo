@@ -157,3 +157,35 @@ body{
 .video-chanel{
     margin-bottom: 5px;
 }
+
+/* grid.html css */
+.container{
+    width: 500px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+.wrapper{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(139, 99, 47);
+}
+.row{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(92, 64, 28);
+}
+.col-one{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(31, 99, 54);
+}
+.col-two{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(74, 117, 89);
+}
+.col-three{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(27, 54, 36);
+}
